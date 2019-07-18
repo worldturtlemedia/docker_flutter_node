@@ -36,6 +36,8 @@ flutter doctor
 - Option for Flutter web
 - Option for Linux desktop
 
+Output from `flutter doctor`:
+
 ```bash
 [✗] Chrome - develop for the web (Cannot find chrome executable at google-chrome)
     ! CHROME_EXECUTABLE not set
