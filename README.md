@@ -8,7 +8,7 @@ This image is meant to be used with [CircleCI](https://circleci.com) for buildin
 
 ## CircleCI Usage
 
-dd this to your CircleCI config file:
+add this to your CircleCI config file:
 
 ```yaml
 version: 2
