@@ -2,7 +2,8 @@ FROM cirrusci/flutter:stable
 LABEL author=worldturtlemedia
 LABEL repo='https://github.com/worldturtlemedia/docker_flutter_node'
 
-RUN sudo apt-get install -y gpg-agent curl software-properties-common \
-    && curl -sL https://deb.nodesource.com/setup_10.x | sudo bash - \
+RUN sudo apt-get update -y \
+    && sudo apt-get install -y gpg-agent curl software-properties-common \
+    && curl -sL https://deb.nodesource.com/setup_12.x | sudo bash - \
     && sudo apt-get install -y nodejs \
     && sudo npm install -g yarn
